@@ -1,0 +1,97 @@
+/* RESET */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  max-height: 100vh;
+}
+/* ESTILO */
+body{
+  background-color: #111;
+  color: #fff;
+}
+header img{
+  display: block;
+  margin: 0 auto;
+}
+h1{
+  text-align: center;
+}
+#container-pesquisa{
+  display: flex;
+  justify-content: center;
+}
+#container-pesquisa input{
+  padding: 2vh 2vw;
+  width: 20vw;
+  border-radius: 10px 0 0 10px;
+}
+#container-pesquisa i{
+  padding: 2vh 2vw;
+  background-color: #0093ad;
+  border: 2px solid #00343d;
+  color: #000;
+  border-radius: 0 10px 10px 0;
+  box-shadow: 0px 0px 10px #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+#containerBotoes{
+  display: flex;
+  justify-content: space-between;
+  align-items: center ;
+  margin: 0 auto;
+  border-bottom: 2px solid #0093ad;
+  padding: 2vh 3vw;
+}
+input[type="button"]{
+  padding: 2vh 2vw;
+  background-color: #0093ad;
+  border: 2px solid #00343d;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}
+input[type="button"]:active,
+#container-pesquisa i:active{
+  box-shadow: none;
+  color: #fff;
+}
+#numeroDaPagina{
+  color: #fff;
+}
+#containerPersonagens{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 2vh 2vw;
+  padding: 2vh 0;
+}
+.personagem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dotted #0093ad;
+  background-color: #0093ad22;
+  border-radius: 20px;
+  padding: 2vh 0;
+  width: 300px;
+  color: #fff;
+}
+.personagem *{
+  margin: 1vh 0;
+}
+.personagem img{
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+}
+footer p{
+  padding: 2vh 2vw;
+  color: #fff;
+  background-color: #0093ad22;
+}
